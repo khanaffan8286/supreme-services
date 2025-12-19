@@ -2339,6 +2339,37 @@ input[type=radio]:checked ~ label::before {
   color: var(--white-color);
 }
 
+/* ================================
+   HEADER LOGO FIX (NO draggable)
+================================ */
+
+/* Stop global img:not([draggable]) rule */
+.header-logo,
+.header-logo a,
+.header-logo img {
+    position: relative !important;
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+}
+
+/* Proper logo sizing */
+.header-logo img.logo-img {
+    max-height: 75px;     /* adjust if needed */
+    width: 170px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Sticky header consistency */
+.sticky-wrapper .header-logo img.logo-img {
+    max-height: 70px;
+}
+
+
 .checkbox input[type=checkbox] {
   visibility: hidden;
   opacity: 0;
