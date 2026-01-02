@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# 1. Redirect index.php to home
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteRule ^index\.php$ / [L,R=301]
+
+# 2. Set index.php as default file
+DirectoryIndex index.php
+
+# 3. SEO friendly service URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z0-9-]+)/?$ service.php?slug=$1 [L,QSA]

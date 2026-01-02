@@ -1,238 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="zxx" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- SEO Title -->
-    <title>
-        Supreme Service – Washing Machine, Refrigerator & Microwave Repair in Navi Mumbai | Vashi, Kharghar
-    </title>
-
-    <!-- Primary SEO Meta -->
-    <meta name="author" content="Supreme Service">
-    <meta name="description" content="Supreme Service offers expert washing machine repair, refrigerator repair, and microwave oven repair in Navi Mumbai. Serving Vashi, Kharghar, Nerul, Belapur, Sanpada & nearby areas. Fast, affordable, same-day home appliance repair near you.">
-   <meta name="keywords" content="
-        washing machine repair near me,
-        washing machine service near me,
-        washing machine repair shop near me,
-        washing machine repair Navi Mumbai,
-        washing machine repair Vashi,
-        washing machine repair Kharghar,
-        washing machine repair Nerul,
-        washing machine repair Belapur,
-        washing machine repair Sanpada,
-        washing machine repair Ghansoli,
-        washing machine repair Airoli,
-        washing machine repair Kopar Khairane,
-        washing machine repair Kalamboli,
-        washing machine repair Panvel,
-        washing machine mechanic near me,
-        washing machine technician near me,
-        washing machine repairing wala,
-        washing machine thik karne wala,
-        washing machine repair home service,
-        washing machine service center Navi Mumbai,
-        washing machine not spinning repair,
-        washing machine not draining repair,
-        washing machine water leakage repair,
-        washing machine motor repair,
-        washing machine drum repair,
-        washing machine noise problem repair,
-        washing machine PCB repair,
-        washing machine installation service,
-        washing machine uninstallation service,
-        same day washing machine repair,
-        emergency washing machine repair,
-        cheap washing machine repair near me,
-        best washing machine repair Navi Mumbai,
-        top load washing machine repair,
-        front load washing machine repair,
-        semi automatic washing machine repair,
-        fully automatic washing machine repair,
-        LG washing machine repair Navi Mumbai,
-        Samsung washing machine repair near me,
-        IFB washing machine repair Navi Mumbai,
-        Whirlpool washing machine repair,
-        Bosch washing machine repair,
-        Godrej washing machine repair,
-        Haier washing machine repair,
-
-        refrigerator repair near me,
-        fridge repair near me,
-        fridge service near me,
-        refrigerator repair Navi Mumbai,
-        fridge repair Navi Mumbai,
-        fridge repair Vashi,
-        fridge repair Kharghar,
-        fridge repair Nerul,
-        fridge repair Belapur,
-        fridge repair Sanpada,
-        fridge repair Ghansoli,
-        fridge repair Airoli,
-        fridge repair Kopar Khairane,
-        fridge repair Kalamboli,
-        fridge repair Panvel,
-        refrigerator technician near me,
-        fridge mechanic near me,
-        fridge repairing wala,
-        fridge thik karne wala,
-        refrigerator not cooling repair,
-        fridge gas filling near me,
-        refrigerator gas refill Navi Mumbai,
-        fridge compressor repair,
-        fridge thermostat repair,
-        fridge leakage repair,
-        double door fridge repair,
-        single door fridge repair,
-        side by side fridge repair,
-        fridge PCB repair,
-        same day fridge repair,
-        emergency fridge repair,
-        cheap fridge repair near me,
-        best fridge repair Navi Mumbai,
-        LG fridge repair Navi Mumbai,
-        Samsung refrigerator repair near me,
-        Whirlpool fridge repair Navi Mumbai,
-        Godrej fridge repair,
-        Haier refrigerator repair,
-        Panasonic fridge repair,
-
-        microwave oven repair near me,
-        microwave repair near me,
-        microwave service near me,
-        microwave repair Navi Mumbai,
-        microwave repair Vashi,
-        microwave repair Kharghar,
-        microwave repair Nerul,
-        microwave repair Belapur,
-        microwave repair Sanpada,
-        microwave repair Ghansoli,
-        microwave repair Airoli,
-        microwave repair Kopar Khairane,
-        microwave technician near me,
-        microwave repairing wala,
-        microwave thik karne wala,
-        microwave not heating repair,
-        microwave sparking repair,
-        microwave turntable not working,
-        microwave door switch repair,
-        microwave magnetron repair,
-        microwave PCB repair,
-        convection microwave repair,
-        solo microwave repair,
-        grill microwave repair,
-        same day microwave repair,
-        emergency microwave repair,
-        cheap microwave repair near me,
-        best microwave repair Navi Mumbai,
-        LG microwave repair,
-        Samsung microwave repair,
-        IFB microwave oven repair,
-        Whirlpool microwave repair,
-        Panasonic microwave repair,
-
-        appliance repair near me,
-        home appliance repair near me,
-        appliance service center Navi Mumbai,
-        appliance repair Vashi,
-        appliance repair Kharghar,
-        appliance repair Nerul,
-        appliance repair Belapur,
-        appliance repair Sanpada,
-        appliance repair Ghansoli,
-        appliance repair Airoli,
-        home service appliance repair,
-        same day appliance repair,
-        emergency appliance repair,
-        cheap appliance repair near me,
-        best appliance repair Navi Mumbai,
-        local appliance repair shop,
-        appliance technician near me,
-        appliance mechanic near me,
-        appliance repairing wala,
-        appliance thik karne wala,
-        Supreme Service appliance repair,
-        Supreme Service Navi Mumbai,
-        home appliance repair Maharashtra
-   ">
-
-    <meta name="robots" content="index, follow">
-
-    <!-- Local SEO / Geo Targeting -->
-    <meta name="geo.region" content="IN-MH">
-    <meta name="geo.placename" content="Navi Mumbai">
-    <meta name="geo.position" content="19.0330;73.0297">
-    <meta name="ICBM" content="19.0330, 73.0297">
-
-    <!-- Mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Open Graph (Google + WhatsApp + Facebook Ranking) -->
-    <meta property="og:title" content="Supreme Service – Washing Machine & Refrigerator Repair in Navi Mumbai">
-    <meta property="og:description" content="Looking for washing machine, fridge or microwave repair near you? Supreme Service provides fast & reliable appliance repair across Vashi, Kharghar & Navi Mumbai.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.supremeservice.in">
-    <meta property="og:image" content="https://www.supremeservice.in/assets/img/seo/cover.jpg">
-
-    <!-- Twitter SEO -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Supreme Service – Appliance Repair in Navi Mumbai">
-    <meta name="twitter:description" content="Expert washing machine, refrigerator & microwave repair near you in Navi Mumbai. Call Supreme Service today.">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-</head>
+<?php include 'header.php'; ?>
 
 
-<body class="">
 
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  	<![endif]-->
+  
 
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-    <!-- <div class="cursor-follower"></div> -->
-
-    <!-- slider drag cursor -->
-    <!-- <div class="slider-drag-cursor"> DRAG </div> -->
-
-    <!--==============================
-     Preloader
-  ==============================-->
-    <div class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <div class="">
-                <img src="assets/img/logo.png" alt="img">
-            </div>
-            <span class="loader">
-                SUPREME
-                <span class="loading-text">SUPREME</span>
-            </span>
-        </div>
-    </div>
-
+    
 
     <!--==============================
     Mobile Menu
@@ -241,26 +13,26 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.png" alt="Supreme"></a>
+                <a href="index.php"><img src="assets/img/logo.png" alt="Supreme"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li >
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                        
                     </li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.php">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Services</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
+                            <li><a href="service.php">Services</a></li>
+                            <li><a href="service-details.php">Service Details</a></li>
                         </ul>
                     </li>
                    
                     
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -339,7 +111,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                           <div class="header-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/img/logo.png" alt="Supreme" class="logo-img">
                                 </a>
                           </div>
@@ -349,21 +121,21 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li >
-                                        <a href="index.html">Home</a>
+                                        <a href="index.php">Home</a>
                                        
                                     </li>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="about.php">About Us</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            <li><a href="service-details.php">Service Details</a></li>
                                         </ul>
                                     </li>
                                    
                                     
                                     <li>
-                                        <a href="contact.html">Contact Us</a>
+                                        <a href="contact.php">Contact Us</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -411,11 +183,11 @@ Hero Area
                                 </p>
 
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.7s">
-                                    <a href="about.html" class="th-btn">
+                                    <a href="about.php" class="th-btn">
                                         Discover More
                                         <span class="after-bg"></span>
                                     </a>
-                                    <a href="contact.html" class="th-btn style2">
+                                    <a href="contact.php" class="th-btn style2">
                                         Contact Us
                                         <span class="after-bg"></span>
                                     </a>
@@ -449,11 +221,11 @@ Hero Area
                             </p>
 
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.7s">
-                                <a href="about.html" class="th-btn">
+                                <a href="about.php" class="th-btn">
                                     Discover More
                                     <span class="after-bg"></span>
                                 </a>
-                                <a href="contact.html" class="th-btn style2">
+                                <a href="contact.php" class="th-btn style2">
                                     Contact Us
                                     <span class="after-bg"></span>
                                 </a>
@@ -486,11 +258,11 @@ Hero Area
                                 </p>
 
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.7s">
-                                    <a href="about.html" class="th-btn">
+                                    <a href="about.php" class="th-btn">
                                         Discover More
                                         <span class="after-bg"></span>
                                     </a>
-                                    <a href="contact.html" class="th-btn style2">
+                                    <a href="contact.php" class="th-btn style2">
                                         Contact Us
                                         <span class="after-bg"></span>
                                     </a>
@@ -541,7 +313,7 @@ Feature Area
                             We fix motor issues, drum problems, drainage faults, noise, and vibration errors
                             with fast and reliable service.
                         </p>
-                        <a href="service.html" class="link-btn2">
+                        <a href="service.php" class="link-btn2">
                             <span>Learn More</span>
                             <div class="icon"></div>
                         </a>
@@ -563,7 +335,7 @@ Feature Area
                             Professional cooling solutions including gas refilling, cooling coil repair,
                             thermostat issues, water leakage, and compressor faults for all refrigerator types.
                         </p>
-                        <a href="service.html" class="link-btn2">
+                        <a href="service.php" class="link-btn2">
                             <span>Learn More</span>
                             <div class="icon"></div>
                         </a>
@@ -585,7 +357,7 @@ Feature Area
                             Reliable repair for solo, grill, and convection microwaves. We fix heating issues,
                             turntable problems, touch panel faults, and electrical failures with quick diagnostics.
                         </p>
-                        <a href="service.html" class="link-btn2">
+                        <a href="service.php" class="link-btn2">
                             <span>Learn More</span>
                             <div class="icon"></div>
                         </a>
@@ -654,7 +426,7 @@ About Area
                         </div>
 
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="th-btn">
+                            <a href="about.php" class="th-btn">
                                 Discover More
                                 <span class="after-bg"></span>
                             </a>
@@ -1076,27 +848,27 @@ Contact Area
 ==============================-->
 
 <style>
-    /* Contact section background fix */
-.contact-area-1 {
-    background-color: #0f172a; /* deep neutral dark */
-    position: relative;
-}
+        /* Contact section background fix */
+    .contact-area-1 {
+        background-color: #0f172a; /* deep neutral dark */
+        position: relative;
+    }
 
-/* Overlay for better contrast */
-.contact-area-1::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(15, 23, 42, 0.85); /* dark overlay */
-    z-index: 0;
-}
+    /* Overlay for better contrast */
+    .contact-area-1::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(15, 23, 42, 0.85); /* dark overlay */
+        z-index: 0;
+    }
 
-/* Ensure content stays above overlay */
-.contact-area-1 .container,
-.contact-area-1 .consulting-wrap1 {
-    position: relative;
-    z-index: 2;
-}
+    /* Ensure content stays above overlay */
+    .contact-area-1 .container,
+    .contact-area-1 .consulting-wrap1 {
+        position: relative;
+        z-index: 2;
+    }
 
 </style>
     <div class="space overflow-hidden contact-area-1 position-relative z-index-common" id="contact-sec">
@@ -1285,197 +1057,6 @@ Testimonial Area
     <!--==============================
 	Footer Area
 ==============================-->
-   <footer class="footer-wrapper footer-default">
-    <div class="container">
-        <div class="footer-top">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xxl-9 col-xl-8">
-                    <div class="title-area mb-0">
-                        <h2 class="text-white text-anim2">
-                            Contact us today for fast & reliable appliance repair services.
-                        </h2>
-                    </div>
-                </div>
-                <div class="col-xl-auto">
-                    <div class="fadeinright wow" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                        <a href="contact.html" class="th-btn style5">
-                            Book a Service
-                            <span class="after-bg"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
-    <div class="widget-area">
-        <div class="container">
-            <div class="row justify-content-between">
-
-                <!-- About -->
-                <div class="col-md-6 col-xl-4" data-cue="slideInUp">
-                    <div class="widget footer-widget">
-                        <div class="th-widget-about">
-                            <div class="about-logo">
-                                <a href="index.html"><img src="assets/img/logo.png" alt="Supreme"></a>
-                            </div>
-                            <p class="about-text">
-                                We are a trusted home appliance repair service provider specializing in washing machines,
-                                refrigerators, and microwave ovens. Our expert technicians deliver quick diagnosis,
-                                transparent pricing, and long-lasting repair solutions.
-                            </p>
-                            <div class="th-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Useful Links -->
-                <div class="col-sm-6 col-xl-auto" data-cue="slideInUp">
-                    <div class="widget widget_nav_menu footer-widget">
-                        <h3 class="widget_title">Useful Links</h3>
-                        <div class="menu-all-pages-container">
-                            <ul class="menu">
-                                <li><a href="index.html"><i class="fa-solid fa-angle-right"></i>Home</a></li>
-                                <li><a href="about.html"><i class="fa-solid fa-angle-right"></i>About Us</a></li>
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Our Services</a></li>
-                                <li><a href="project.html"><i class="fa-solid fa-angle-right"></i>Service Gallery</a></li>
-                                <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Services -->
-                <div class="col-md-6 col-xl-auto" data-cue="slideInUp">
-                    <div class="widget widget_nav_menu footer-widget">
-                        <h3 class="widget_title">Our Services</h3>
-                        <div class="menu-all-pages-container">
-                            <ul class="menu">
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Washing Machine Repair</a></li>
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Refrigerator Repair</a></li>
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Microwave Oven Repair</a></li>
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Gas Refilling Service</a></li>
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Appliance Maintenance</a></li>
-                                <li><a href="service.html"><i class="fa-solid fa-angle-right"></i>Same-Day Repair</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Instagram -->
-                <div class="col-md-6 col-xl-3" data-cue="slideInUp">
-                    <div class="widget footer-widget">
-                        <h3 class="widget_title">Instagram Post</h3>
-                        <div class="sidebar-gallery">
-                            <div class="gallery-thumb">
-                                <img src="assets/img/widget/gallery_1_1.jpg" alt="Gallery Image">
-                                <a target="_blank" href="#" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="assets/img/widget/gallery_1_2.jpg" alt="Gallery Image">
-                                <a target="_blank" href="#" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="assets/img/widget/gallery_1_3.jpg" alt="Gallery Image">
-                                <a target="_blank" href="#" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="assets/img/widget/gallery_1_4.jpg" alt="Gallery Image">
-                                <a target="_blank" href="#" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="assets/img/widget/gallery_1_5.jpg" alt="Gallery Image">
-                                <a target="_blank" href="#" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="assets/img/widget/gallery_1_6.jpg" alt="Gallery Image">
-                                <a target="_blank" href="#" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="copyright-wrap">
-        <div class="container">
-            <div class="row justify-content-center gy-3 align-items-center">
-                <div class="col-lg-6" data-cue="slideInUp">
-                    <p class="copyright-text">
-                        Copyright <i class="fal fa-copyright"></i> 2025
-                        <a href="index.html">Supreme</a>, All rights reserved.
-                    </p>
-                </div>
-                <div class="col-lg-6 text-lg-end text-center" data-cue="slideInUp">
-                    <div class="footer-links">
-                        <ul>
-                            <li><a href="about.html">Terms of Service</a></li>
-                            <li><a href="about.html">Privacy Policy</a></li>
-                            <li><a href="about.html">Cookies Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-
-    <!-- Scroll To Top -->
-    <div class="scroll-top">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
-        </svg>
-    </div>
-
-    <!--==============================
-    All Js File
-============================== -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <!-- <script src="assets/js/vendor/jquery-3.7.1.min.js"></script> -->
-    <!-- Swiper Js -->
-    <!-- <script src="assets/js/app.min.js"></script> -->
-
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- Cue Js -->
-    <script src="assets/js/scrollCue.min.js"></script>
-    <!-- Gsap -->
-    <script src="assets/js/gsap.min.js"></script>
-    <!-- Scroll Trigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <!-- Split Text -->
-    <script src="assets/js/SplitText.min.js"></script>
-    <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
-
-
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>
+<?php include 'footer.php'; ?>
