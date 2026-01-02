@@ -1,13 +1,18 @@
 RewriteEngine On
 
-# 1. Redirect index.php to home
-RewriteCond %{THE_REQUEST} /index\.php [NC]
-RewriteRule ^index\.php$ / [L,R=301]
+# Project is in subfolder
+RewriteBase /supreme-services/
 
-# 2. Set index.php as default file
-DirectoryIndex index.php
+# 1. Remove index.php from URL
+RewriteCond %{THE_REQUEST} \s/+supreme-services/index\.php[\s?]
+RewriteRule ^index\.php$ /supreme-services/ [R=301,L]
 
-# 3. SEO friendly service URLs
+# 2. Direct PHP file access (contact → contact.php)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-z0-9-]+)/?$ service.php?slug=$1 [L,QSA]
+RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L]
+
+# 3. SEO dynamic slugs (washing-machine-repair-navi-mumbai)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?slug=$1 [L,QSA]

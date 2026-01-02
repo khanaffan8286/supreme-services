@@ -26,7 +26,7 @@
                    
                     
                     <li>
-                        <a href="contact.php">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -129,7 +129,7 @@
                                    
                                     
                                     <li>
-                                        <a href="contact.php">Contact Us</a>
+                                        <a href="/contact">Contact Us</a>
                                     </li>
                                 </ul>
                             </nav>
