@@ -3,16 +3,30 @@ RewriteEngine On
 # Project is in subfolder
 RewriteBase /supreme-services/
 
-# 1. Remove index.php from URL
+# ---------------------------------------
+# 1. FORCE index.php as homepage
+# ---------------------------------------
+DirectoryIndex index.php
+
+# ---------------------------------------
+# 2. Remove index.php from URL
+# ---------------------------------------
 RewriteCond %{THE_REQUEST} \s/+supreme-services/index\.php[\s?]
 RewriteRule ^index\.php$ /supreme-services/ [R=301,L]
 
-# 2. Direct PHP file access (contact → contact.php)
+# ---------------------------------------
+# 3. REAL PHP FILES (about → about.php)
+# ---------------------------------------
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.+)\.php$ - [L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L]
+RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L,QSA]
 
-# 3. SEO dynamic slugs (washing-machine-repair-navi-mumbai)
+# ---------------------------------------
+# 4. SEO SLUGS → index.php?slug=
+# ---------------------------------------
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ index.php?slug=$1 [L,QSA]

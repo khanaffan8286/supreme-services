@@ -1,45 +1,38 @@
 <?php
-require_once '../config/db.php';
+require_once __DIR__ . '/../config/db.php';
+session_start();
 if (!isset($_SESSION['admin_id'])) exit;
 
-$id = $_GET['id'];
-$page = $conn->query("SELECT * FROM seo_pages WHERE id=$id")->fetch_assoc();
-
-if ($_POST) {
-    $stmt = $conn->prepare("
-        UPDATE seo_pages SET
-        meta_title=?,
-        meta_description=?,
-        meta_keywords=?,
-        canonical_url=?,
-        robots=?
-        WHERE id=?
-    ");
-
-    $stmt->bind_param(
-        "sssssi",
-        $_POST['meta_title'],
-        $_POST['meta_description'],
-        $_POST['meta_keywords'],
-        $_POST['canonical_url'],
-        $_POST['robots'],
-        $id
-    );
-    $stmt->execute();
-
-    header("Location: dashboard.php");
-    exit;
-}
+$result = $conn->query("SELECT * FROM seo_pages ORDER BY id DESC");
 ?>
 
-<form method="post">
-    <h2>Edit SEO: <?= $page['page_slug'] ?></h2>
+<!doctype html>
+<html>
+<head>
+<title>Edit SEO Pages</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-    <input name="meta_title" value="<?= htmlspecialchars($page['meta_title']) ?>">
-    <textarea name="meta_description"><?= htmlspecialchars($page['meta_description']) ?></textarea>
-    <textarea name="meta_keywords"><?= htmlspecialchars($page['meta_keywords']) ?></textarea>
-    <input name="canonical_url" value="<?= $page['canonical_url'] ?>">
-    <input name="robots" value="<?= $page['robots'] ?>">
+<body class="bg-gray-100 p-8">
 
-    <button type="submit">Update</button>
-</form>
+<div class="max-w-5xl mx-auto bg-white p-6 rounded shadow">
+<h2 class="text-xl font-bold mb-4">SEO Pages</h2>
+
+<table class="w-full border">
+<tr class="bg-gray-200">
+<th class="p-2">Slug</th>
+<th class="p-2">Title</th>
+</tr>
+
+<?php while($row = $result->fetch_assoc()): ?>
+<tr class="border-t">
+<td class="p-2"><?= $row['page_slug'] ?></td>
+<td class="p-2"><?= $row['meta_title'] ?></td>
+</tr>
+<?php endwhile; ?>
+
+</table>
+</div>
+
+</body>
+</html>
