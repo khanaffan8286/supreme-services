@@ -2,16 +2,14 @@
 require_once __DIR__ . '/config/db.php';
 
 /**
- * Detect slug:
- * - SEO pages → /washing-machine-repair-in-mumbai
- * - Normal pages → /contact, /service
+ * Get slug safely
  */
 $slug = $_GET['slug'] ?? 'home';
-$slug = trim($slug, "/");
+$slug = trim($slug, '/');
 $slug = urldecode($slug);
 
 /**
- * Default SEO (used for home & normal pages)
+ * Default SEO (home & fallback)
  */
 $seo = [
     'meta_title' => 'Supreme Service – Appliance Repair',
@@ -30,10 +28,9 @@ $seo = [
 ];
 
 /**
- * Load SEO only for slug-based pages
+ * 🔥 ALWAYS try DB lookup for SEO slugs
  */
-if ($slug !== 'home' && !str_ends_with($_SERVER['SCRIPT_NAME'], '.php')) {
-
+if ($slug !== 'home') {
     $stmt = $conn->prepare(
         "SELECT * FROM seo_pages WHERE page_slug = ? LIMIT 1"
     );
@@ -54,7 +51,7 @@ if ($slug !== 'home' && !str_ends_with($_SERVER['SCRIPT_NAME'], '.php')) {
 }
 
 /**
- * Canonical URL (ALWAYS dynamic)
+ * ✅ Correct canonical (NO .php ever)
  */
 $canonical = ($slug === 'home')
     ? 'https://www.supremeservice.in/'
@@ -67,6 +64,7 @@ $canonical = ($slug === 'home')
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title><?= htmlspecialchars($seo['meta_title']) ?></title>
+
 <meta name="description" content="<?= htmlspecialchars($seo['meta_description']) ?>">
 <meta name="keywords" content="<?= htmlspecialchars($seo['meta_keywords']) ?>">
 <meta name="robots" content="<?= htmlspecialchars($seo['robots']) ?>">
@@ -91,7 +89,7 @@ $canonical = ($slug === 'home')
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon.png">
 <meta name="theme-color" content="#ffffff">
 
-<!-- Fonts & CSS -->
+<!-- CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">

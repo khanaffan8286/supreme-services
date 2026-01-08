@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Allow direct access to files & directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Remove .php extension for admin pages
+RewriteRule ^([^/]+)/?$ $1.php [L]

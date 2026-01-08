@@ -1,32 +1,34 @@
-RewriteEngine On
+DirectoryIndex index.php
+Options -Indexes
 
-# Project is in subfolder
+RewriteEngine On
 RewriteBase /supreme-services/
 
-# ---------------------------------------
-# 1. FORCE index.php as homepage
-# ---------------------------------------
-DirectoryIndex index.php
+# if folder requested → load index.php
+RewriteRule ^$ index.php [L]
 
-# ---------------------------------------
-# 2. Remove index.php from URL
-# ---------------------------------------
+# Remove index.php from URL
 RewriteCond %{THE_REQUEST} \s/+supreme-services/index\.php[\s?]
 RewriteRule ^index\.php$ /supreme-services/ [R=301,L]
 
-# ---------------------------------------
-# 3. REAL PHP FILES (about → about.php)
-# ---------------------------------------
-RewriteCond %{REQUEST_FILENAME} -f
-RewriteRule ^(.+)\.php$ - [L]
+# ============================
+# ADMIN ROUTES
+# ============================
+RewriteRule ^admin/login/?$ admin/login.php [L]
+RewriteRule ^admin/logout/?$ admin/logout.php [L]
+RewriteRule ^admin/service-add/?$ admin/service-add.php [L]
+RewriteRule ^admin/service-edit/?$ admin/service-edit.php [L]
+RewriteRule ^admin/?$ admin/login.php [L]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L,QSA]
+# ============================
+# STATIC FILE EXCLUSIONS
+# ============================
+RewriteCond %{REQUEST_URI} \.(css|js|png|jpg|jpeg|gif|svg|woff|woff2|ttf|ico)$ [NC]
+RewriteRule ^ - [L]
 
-# ---------------------------------------
-# 4. SEO SLUGS → index.php?slug=
-# ---------------------------------------
+# ============================
+# SEO SLUG HANDLING
+# ============================
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ index.php?slug=$1 [L,QSA]
